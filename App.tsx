@@ -121,13 +121,13 @@ function App() {
       })}
       <p />
       <form onSubmit={(event) => handleAdd(event)}>
-        <label>Recipe Name: </label>
+        <label>Recipe: </label>
         <input onChange={(event) => handleInputNameChange(event)} />
         <p />
         <label>Ingredients: (seperate by ,)</label>
         <input onChange={(event) => handleInputIngredientsChange(event)} />
         <p />
-        <label>Steps to prepare: </label>
+        <label>Steps: </label>
         <input onChange={(event) => handleInputStepsChange(event)} />
         <p />
         <button type="submit">Add</button>
